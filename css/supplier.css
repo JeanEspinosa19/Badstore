@@ -1,0 +1,33 @@
+.form{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+}
+input[type="text"],input[type="number"],input[type="email"],input[type="password"]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 7px 5px 7px 5px;
+    width: 40%;
+}
+input[type="file"]{
+    width: 40%;
+    position: relative;
+    content: 'Select a File';
+}
+
+.upload{
+    background-color: #198e06;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.form-group{
+    text-align: left;
+}
+label{
+    font-weight: bold;
+}
+h2{
+    color: #198e06;
+}
