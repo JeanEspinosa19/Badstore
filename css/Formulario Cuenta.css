@@ -1,0 +1,37 @@
+.form{
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+input[type="text"],input[type="number"],input[type="email"],input[type="password"]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 7px 5px 7px 5px;
+    width: 40%;
+    text-align: center;
+}
+input[type="file"]{
+    width: 40%;
+    position: relative;
+    content: 'Select a File';
+}
+.restablecer{
+    background-color: #042544;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.form-group{
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    font-size: x-large;
+}
+h3{
+    color: #0c0c0c;
+}
+h2{
+    color: #198e06;
+}
