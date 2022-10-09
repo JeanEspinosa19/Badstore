@@ -19,12 +19,14 @@ function loginUser(e) {
             loadTypeUser=item.typeUser;
             
             if (loadTypeUser=='supplier') {
+                userLogin.loginUser(verifyUser);
                 alert('Welcome '+verifyUser);
                 window.location.href="supplierHome.html";
             }
             if (loadTypeUser=='buyer') {
-                alert('Sorry, the page is maintenance');
-                window.location.href="index.html";
+                userLogin.loginUser(verifyUser);
+                alert('Welcome '+verifyUser);
+                window.location.href="buyerHome.html";
             }
         }
     });
