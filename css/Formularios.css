@@ -37,6 +37,27 @@ nav.navbar{
     color: white;
 }
 
+/* Services */
+#services {
+  height: 70vh;
+  padding-top: 50px;
+}
+
+#services h2 {
+  padding-bottom: 50px;
+}
+
+.services-box {
+  float: left;
+  width: 33%;
+  padding: 20px;
+}
+
+.services-box img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
 .section{
     text-align: left;
 }
